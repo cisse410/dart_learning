@@ -1,0 +1,31 @@
+void conversionDataType() {
+  print("\n\n\t\t\t######### CONVERSION BETWEEN DATA TYPE #########\n\n");
+  print('Converting int to String...');
+  int numberOfPeople = 30;
+  String numberOfPeopleString = numberOfPeople.toString();
+  print(numberOfPeopleString);
+  print("Converting double to String...");
+  double temp = 30.549;
+  String tempString = temp.toString();
+  String tempStringRounded = temp.toStringAsFixed(2);
+  print(tempString);
+  print(tempStringRounded);
+  print("Converting String to int...");
+  String age = '22';
+  int ageInteger = int.parse(age);
+  print("Age converted to int... $ageInteger");
+  print("Converting String to double...");
+  String average = '30.3';
+  double averageDouble = double.parse(average);
+  print("Converted String to double... $averageDouble");
+  print("Converting int to double...");
+  int price = 30;
+  double priceDouble = price.toDouble();
+  print("Converted int to double... $priceDouble");
+  print("Converting double to int...");
+  double temperature = 38.9;
+  int temperatureCeil = temperature.ceil();
+  int temperatureFloor = temperature.floor();
+  print("Arrondir par excés $temperatureCeil");
+  print("Arrondir par défaut $temperatureFloor");
+}
