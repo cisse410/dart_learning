@@ -1,5 +1,5 @@
-import 'package:dart_learning/exercice5.dart';
+import 'package:dart_learning/collections/exercice6.dart';
 
 void main(List<String> arguments) {
-  exercice5();
+  exercice6();
 }
