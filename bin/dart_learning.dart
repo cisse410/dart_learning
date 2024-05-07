@@ -1,5 +1,5 @@
-import 'package:dart_learning/collections/exercice6.dart';
+import 'package:dart_learning/collections/read_data.dart';
 
-void main(List<String> arguments) {
-  exercice6();
+void main(List<String> arguments) async {
+  readDataFromFile();
 }
